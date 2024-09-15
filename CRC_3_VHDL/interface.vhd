@@ -4,13 +4,13 @@ use IEEE.STD_LOGIC_1164.ALL;
     --interface with encoder of 14 bits message is using 3-bit CRC algorithm 
 entity CRC_init is	
     generic
-	(
-		    --message lenght can be devided on user data area 
-                    --in MSG_LENGTH - POLINOMIAL_LENGTH = 14 bits 
-                    --and 3 bits area for control sum 
-		MSG_LENGTH : integer := 17;
-		    --do avaible to use 3-degree polynomial
-		POLINOMIAL_LENGTH : integer := 4
+    (
+	    --message lenght can be devided on user data area 
+            --in MSG_LENGTH - POLINOMIAL_LENGTH = 14 bits 
+            --and 3 bits area for control sum 
+	MSG_LENGTH : integer := 17;
+	    --do avaible to use 3-degree polynomial
+	POLINOMIAL_LENGTH : integer := 4
     );
     port(
             --initiates CRC encapsulation
