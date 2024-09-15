@@ -1,5 +1,5 @@
 # CRC-3-with-14-bits-message
-**Description:*** Verilog and VHDL descriptions of interface with encoder of 14 bits message is using 3-bit cyclic redundancy check (CRC) algorithm.
+**Description:** Verilog and VHDL descriptions of interface with encoder of 14 bits message is using 3-bit cyclic redundancy check (CRC) algorithm.
 
 Wikipedia CRC-3 example ("Computation" section of article: https://en.wikipedia.org/wiki/Cyclic_redundancy_check) was realised.
 
