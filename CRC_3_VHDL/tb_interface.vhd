@@ -3,9 +3,9 @@ use ieee.std_logic_1164.all;
 
 entity CRC_tb is
     generic
-	  (
-		MSG_LENGTH : integer := 17;
-		POLINOMIAL_LENGTH : integer := 4
+    (
+	MSG_LENGTH : integer := 17;
+	POLINOMIAL_LENGTH : integer := 4
     );
 end entity CRC_tb;
 
@@ -39,4 +39,3 @@ begin
     end process;
     
 end architecture CRC_tb_1;
-    
