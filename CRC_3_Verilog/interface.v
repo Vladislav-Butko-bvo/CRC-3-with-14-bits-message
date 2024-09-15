@@ -23,8 +23,8 @@ module CRC_int(
     output [`MSG_LENGTH-1:0] msg_output
     );
     
-  //gets encapsulated massage from CRC_encaps 
-	//and send it to CRC_decaps
+    //gets encapsulated massage from CRC_encaps 
+    //and send it to CRC_decaps
 wire [`MSG_LENGTH-1:0] w_msg_output;  
     
 initial@(posedge enable) $display("ENCAPSULATION");   
