@@ -25,5 +25,7 @@ Nevetheless description language same FPGA resource amount was used. See utiliza
 
 ![Used FPGA resources](https://github.com/user-attachments/assets/903a0034-4c19-4b9b-9a46-aa86018b9ed7)
 
+But at the same time count of the source code lines is more in near one and a half times for VHDL description. The Verilog description contains 109 lines opposite VHDL – 157. 
+
 
 
