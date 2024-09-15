@@ -19,4 +19,11 @@ VHDL (with only CRC_encaps instance) behavioral simulation shows result of ecaps
 
 ![VHDL behavioral simulation (with only CRC_encaps instance](https://github.com/user-attachments/assets/ee9f9ec3-26e2-4fab-9f6c-e17c5b6ac27b)
 
+Both Verilog and VHDL despriptions was synthesed and implemented on virtual Xilinx FPGA Kintex-7 (xc7k70tfbv676-1).
+
+Nevetheless description language same FPGA resource amount was used. See utilization report, primitive section: 
+
+![Used FPGA resources](https://github.com/user-attachments/assets/903a0034-4c19-4b9b-9a46-aa86018b9ed7)
+
+
 
